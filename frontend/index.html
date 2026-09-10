@@ -3,23 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sistem Peminjaman Peralatan Laboratorium">
     <title>SIPERALAB | Beranda</title>
+    <link rel="stylesheet" href="/src/styles.css">
 </head>
 <body>
-    <h1>SIPERALAB</h1>
-    <p>Sistem peminjaman peralatan laboratorium.</p>
+    <header class="site-header">
+        <a class="brand" href="/frontend/index.html">SIPERALAB</a>
 
-    <h2>Fitur Awal</h2>
-    <ul>
-        <li>Melihat daftar peralatan</li>
-        <li>Membuka informasi peminjaman</li>
-    </ul>
+        <nav aria-label="Navigasi Utama">
+            <a href="/frontend/index.html">Beranda</a>
+            <a href="/frontend/peralatan.html">Peralatan</a>
+        </nav>
+    </header>
 
-    <a href="/peralatan.html">Lihat Peralatan</a>
+    <main>
+        <h1>Peminjaman Alat Laboratorium Jadi Lebih Tertata</h1>
+        <p>
+            SIPERALAB membantu mahasiswa melihat peralatan yang tersedia dan mengajukan peminjaman melalui aplikasi web.
+        </p>
 
-    <img
-        src="/images/lab-equipment.svg"
+        <h2>Fitur Yang Akan Dikembangkan</h2>
+        <ul>
+            <li>Melihat katalog peralatan.</li>
+            <li>Mencari dan memfilter peralatan.</li>
+            <li>Mengajukan serta memantau peminjaman.</li>
+        </ul>
+
+        <img
+        src="/images/lab-equipment.jpg"
         alt="Ilustrasi peralatan laboratorium"
-    >
+        width="520"
+        >
+    </main>
+
+    <footer>
+        <p>Proyek semester Komputasi Berbasis Web.</p>
+    </footer>
+
+    <script type="module" src="/src/main.js">
+    </script>
 </body>
 </html>
